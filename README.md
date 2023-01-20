@@ -1,8 +1,8 @@
 # Introdução ao Javascript
 
-<p align="justify">Iniciando meu aprendizado de javascript com o professor Gustavo Guanabara, posso afirmar que sua didática é excelente. Ele tem habilidade de explicar de forma clara e objetiva os conceitos iniciais da linguagem, tornando o aprendizado mais simples e eficaz. Com sua ajuda, é possível compreender rapidamente como as variáveis, operadores, condicionais, laços, funções e eventos funcionam, além de saber como manipular o DOM para adicionar interação às páginas web. Além disso, ele fornece exemplos práticos e exercícios que ajudam a fixar o conteúdo aprendido. Em resumo, estudar javascript com o professor Gustavo Guanabara é uma ótima escolha para quem deseja aprender essa linguagem de forma eficiente.</p>
+<p align="justify">Iniciando meu aprendizado de javascript com o professor <a href="https://github.com/gustavoguanabara" target="_black">Gustavo Guanabara</a>, posso afirmar que sua didática é excelente. Ele tem habilidade de explicar de forma clara e objetiva os conceitos iniciais da linguagem, tornando o aprendizado mais simples e eficaz. Com sua ajuda, é possível compreender rapidamente como as variáveis, operadores, condicionais, laços, funções e eventos funcionam, além de saber como manipular o DOM para adicionar interação às páginas web. Além disso, ele fornece exemplos práticos e exercícios que ajudam a fixar o conteúdo aprendido. Em resumo, estudar javascript com o professor Gustavo Guanabara é uma ótima escolha para quem deseja aprender essa linguagem de forma eficiente.</p>
 <div align="center">
- <img src="https://cdn-icons-png.flaticon.com/512/919/919828.png" height="200" width="200" title="Javascript">
+ <img src="https://cdn-icons-png.flaticon.com/512/919/919828.png" height="200" width="200" title="Javascript :)">
 </div>
 
 <h2>Sobre a linguagem</h2>
