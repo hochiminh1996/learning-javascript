@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    --font-padrao : Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+div#area{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(22, 125, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e9e7ea;
+    font: bold 20px var(--font-padrao);
+    border-radius: 10px;
+}
