@@ -1,3 +1,10 @@
+/*
+    Switch é muito útil para casos pontuais, quando testamos coisas específicas. Por exemplo, dias da semana/mês que começam em zero
+
+    Se quisermos testar intervalos de valores, é necessário usar o clássico IF
+
+ */
+
 
 var mes = new Date().getMonth();
 
