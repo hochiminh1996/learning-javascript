@@ -170,11 +170,34 @@ footer {
         height: 100%;
     }
 
+    /* campo da escolha do sexo */
     div#form>#choose {
         /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
+
+    input#btn{
+        width: 100%;
+        padding: 5px;
+    }
+
+    /* Campo que exibe a classifição do individuo */
+    #detected{
+        font-size: .8em;
+    }
+
+    #foto{
+        width: 100%;
+    }
+
+    #btn-clear{
+        /* border: 1px solid red; */
+        padding: 5px;
+    }
+
+    
+
+    
 }
