@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-padrao: "Bebas Neue";
+}
+
+body {
+    background-color: rgb(107, 107, 241);
+    font: normal 15pt var(--font-padrao);
+}
+
+header {
+    color: white;
+    text-align: center;
+    max-height: 5em;
+    border: 1px solid;
+    padding: 20px 10px;
+}
+
+#principal {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 30vw;
+    height: fit-content;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div#form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* border: 1px solid; */
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+
+div#form label {
+    font-size: 1.2em;
+}
+
+input#ano {
+    padding: 15px 10px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #d9d9d9;
+}
+
+div#choose {
+    padding: 10px 0px;
+}
+
+input#btn {
+    padding: 15px;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    font-family: var(--font-padrao);
+    font-size: 1em;
+    cursor: pointer;
+}
+
+input#btn:hover {
+    background-color: #6B6BF1;
+    color: #e9e7ea;
+    border: 1px solid #6B6BF1;
+    transition: all linear .5s;
+
+
+}
+
+#res {
+    text-align: center;
+}
+
+#res .erro {
+    color: red;
+    background-color: red;
+    padding: 10px 0px;
+    color: #e9e7ea;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#foto {
+    /* border: 1px solid red; */
+    width: 60%;
+    border-radius: 50%;
+    opacity: .7;
+}
+
+#foto:hover {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
+    transition: all linear .5s;
+    opacity: 1;
+
+}
+
+#detected {
+    background-color: #09f;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fefefe;
+    margin-bottom: 5px;
+}
+
+
+#btn-clear {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    color: #e9e7ea;
+    font-family: var(--font-padrao);
+    font-size: 1em;
+    cursor: pointer;
+    color: black;
+}
+
+#btn-clear:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #fefefe;
+    transition: all linear .5s;
+
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-style: italic;
+}
+
+
+@media(max-width:660px) {
+    #principal {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        font-size: .9em;
+    }
+
+    div#form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    div#form>#choose {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
