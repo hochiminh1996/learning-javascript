@@ -92,6 +92,27 @@ section {
     font-size: 1.5em;
 }
 
+/* id para quando a tabela for criada */
+#select-info{
+    width: 100%;
+    margin-top: 10px;
+    /* padding: 10px 0px; */
+    font-family: var(--font-padrao);
+    text-align: center;
+    font-size: 1em;
+    border: 1px solid #d9d9d9;
+    outline: none;
+    background-color: black;
+    color: #fefefe;
+    border-radius: 5px;
+
+}
+
+#select-info .camp-options:hover{
+    background-color: #09f;
+    transition: all linear .5s;
+}
+
 
 footer {
     color: white;
