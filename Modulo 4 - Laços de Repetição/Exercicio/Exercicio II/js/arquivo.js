@@ -3,6 +3,41 @@
 document.getElementById("btn").addEventListener("click", principal);
 
 
+function btn_limpar() {
+
+    // verifica se o elemento já existe. Por ser class, temos que usar o length para verificar a quantidade de elementos. Afinal, poderia haver, por definição, +1 elemento do tipo classe, por isso precisamos validar. Se a quantidade não for maior que 0, criamos o btn. Caso contrário, ele já existe e n é necessário recriá-lo. 
+    if (!document.getElementsByClassName("btn_clear").length > 0) {
+        let btn_limpar = document.createElement("input");
+        btn_limpar.type = "button";
+        btn_limpar.value = "Limpar";
+        btn_limpar.classList.add("btn", "btn_clear");
+
+        document.querySelector("#resultado").appendChild(btn_limpar);
+
+        // adicionado um evento "click" a um elemento do tipo classe, por isso estamos usando o [0] (primeiro).
+        document.getElementsByClassName("btn_clear")[0].addEventListener("click", () => {
+
+
+
+
+            // removendo o filho select
+            document.querySelector("#resultado").removeChild(document.querySelector("#select-info"));
+
+            // removendo o btn criado
+            document.querySelector("#resultado").removeChild(btn_limpar);
+
+            // podemos remover de outra forma :
+            // document.querySelector("#resultado").removeChild(document.getElementsByClassName("btn_clear")[0]);
+
+            // limpando o input
+            document.querySelector("#tabuada").value = "";
+            document.querySelector("#tabuada").focus();
+
+        })
+    }
+
+}
+
 
 function tabuada() {
     let num = Number(document.querySelector("#tabuada").value);
@@ -50,7 +85,8 @@ function tabuada() {
         resultado.appendChild(select);
         //adicionado o select como filho da nossa div resultado, que mostrará a tabuada
     } else {
-        // se já existir um id #select-info, significa que já temos um select e NÃO precisamos recriá-lo, apenas mudar os valores dos option
+        // ---------------------------------------------------------------------------------                                    PULO DO GATO
+        // se já existir um id #select-info, significa que já temos um select e NÃO precisamos recriá-lo, apenas mudar os valores dos option. 
 
 
         //Vai pegar todos os elementos filhos do select e vai removê-los 
@@ -74,6 +110,8 @@ function tabuada() {
 
 }
 
+
+// função para validações
 function validacao() {
     let campo = document.querySelector("#tabuada");
 
@@ -99,5 +137,9 @@ function principal() {
     } else {
         tabuada();
         btn_limpar();
+
+
     }
+
+
 }
