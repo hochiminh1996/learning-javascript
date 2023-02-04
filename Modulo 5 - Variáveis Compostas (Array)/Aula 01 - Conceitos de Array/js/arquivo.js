@@ -49,3 +49,9 @@ for(let i=0;i<paises.length;i++){
 for(let i in paises){
     console.log(paises[i])
 }
+
+
+// Buscando valores dentro do array
+paises.indexOf("Brasil"); //retorna a posição do valor, se existir. Se não existir, retorna -1.
+paises[1];
+ 
