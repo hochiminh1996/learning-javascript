@@ -37,3 +37,15 @@ paises.sort();
 for(let i=0;i<paises.length;i++){
     console.log(paises[i]);
 }
+
+
+/*Exibindo o vetor em uma estutura apropriedada para arrays e objetos (apenas)
+
+    for(indice in vetor){
+        console.log(vetor[indice])
+    }
+*/
+
+for(let i in paises){
+    console.log(paises[i])
+}
