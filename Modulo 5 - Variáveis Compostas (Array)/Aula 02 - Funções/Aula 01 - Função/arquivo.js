@@ -13,6 +13,7 @@
 function fatorial_recursivo(n) {
     if (n == 1) {
         return 1;
+        // condição base. Ao chegar ao 1 ele apenas retorna o 1, quebrando  o ciclo da chamada de função
     } else {
         alert(n)
         return n * fatorial_recursivo(n - 1);
@@ -91,17 +92,12 @@ fatorial_recursivo(5);
 
     n * fatorial (n-1)
 
-    1° 7 * fatorial(6)  | 7 * 720 = 5040
-    2° 6 * fatorial(5)  | 6 * 120 = 720
-    3° 5 * fatorial(4)  | 5 * 24 = 120
-    4° 4 * fatorial(3)  | 4 * 6 = 24
-    5° 3 * fatorial(2)  | 3 * 2 =6
-    6° 2 * fatorial(1)  | 1 * 2 = 2
-
-
-
-
-
+    1° 7 * fatorial(6)  | 7 * 720 = acumulador da função (7 * 6! => 7 * 720 = 5070)
+    2° 6 * fatorial(5)  | 6 * 120 = acumulador da função (6 * 5! => 6 * 120 = 720)
+    3° 5 * fatorial(4)  | 5 * 24 = acumulador da função(5 * 4! => 120)
+    4° 4 * fatorial(3)  | 4 * 6 = acumulador da função (4 * 3! =>  24)
+    5° 3 * fatorial(2)  | 3 * 2 = acumulador da função (3 * 2! => 6)
+    6° 2 * fatorial(1)  | 1 * 2 = acumulador da função (2 * 1! => 2)
 
 */
 
