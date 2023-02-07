@@ -10,6 +10,9 @@
     Valor: "Brasil", "Rússia", "Índia", "China"
 
     O valor, neste caso, é igual aos elementos
+	
+	
+	Curiosamente, em Javascript, o typeof de um array é um objeto.
 
 */
 
