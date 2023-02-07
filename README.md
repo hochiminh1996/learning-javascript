@@ -9,7 +9,7 @@
 <p align="justify">JavaScript é uma linguagem de programação utilizada principalmente para criar interação e dinamismo em páginas web. Ele pode ser utilizado tanto no lado do cliente (no navegador) quanto no lado do servidor (usando ferramentas como Node.js). Alguns dos conceitos iniciais do JavaScript incluem:</p>
 
 
-- Variáveis: que permitem armazenar e manipular dados, como números, strings e objetos.
+- Variáveis primitivas e compostas: que permitem armazenar e manipular dados, como números, strings e objetos.
 
 - Operadores: que permitem realizar operações matemáticas e lógicas, como adição, subtração e comparação.
 
