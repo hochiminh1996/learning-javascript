@@ -7,19 +7,21 @@ document.addEventListener("DOMContentLoaded", principal);
     O typeof de um objeto é objeto. Curiosamente, em JS, o typeof de um array tb é um objeto
 */
 
-function principal(){
-    
-    let pessoa = { nome : "Felippe", idade : 27, estudar(nome){
-        // observe que estamos definido uma função dentro do obj, que agora é denominado de  método
-        return `${nome} está estudando. Sua idade é ${this.idade}`;
+function principal() {
+
+    let pessoa = {
+        nome: "Felippe", idade: 27, estudar(nome) {
+            // observe que estamos definido uma função dentro do obj, que agora é denominado de  método
+            return `${nome} está estudando. Sua idade é ${this.idade}`;
             // this está fazendo referência ao atributo do objeto pessoa
 
 
 
-    }}
+        }
+    }
 
 
-    alert(pessoa.estudar("Felippe"));
+
 
 }
 
